@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/ompl/datastructures/BinaryHeap.h
+functional
+-
+utility
+-
+vector
+-
+cassert
+-
+
+/home/deepracer/nav2_ws/src/ompl/tests/datastructures/heap.cpp
+boost/test/unit_test.hpp
+-
+ompl/datastructures/BinaryHeap.h
+/home/deepracer/nav2_ws/src/ompl/tests/datastructures/ompl/datastructures/BinaryHeap.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libcrossdoor_nodes_dyn.so -o bin/libcrossdoor_nodes_dyn.so CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o  -Wl,-rpath,/home/deepracer/nav2_ws/src/behaviortree_cpp_v3-release/build:/home/deepracer/ros2_foxy/ros2-linux/lib ../libbehaviortree_cpp_v3.so -lpthread -ldl -Wl,-rpath-link,/home/deepracer/ros2_foxy/ros2-linux/lib 
